@@ -37,3 +37,20 @@ public class PersonTester {
         System.out.println("toString() result for Person 3: " + person3.toString());
     }
 }
+
+//Output
+//First Name: Christina
+//Last Name: Manisap
+//Full Name: Christina Manisap
+//ID Number: 1001
+//Print First Name:
+//Christina
+//Print Last Name:
+//Manisap
+//Print ID Number:
+//1001
+//toString() result: Person [ID: 1001, Name: Christina Manisap]
+//Person 2 Full Name: David Friend
+//Person 2 ID Number: 1002
+//Person 3 ID Number: 1003
+//toString() result for Person 3: Person [ID: 1003, Name: Eden Homie]

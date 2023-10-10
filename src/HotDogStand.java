@@ -71,3 +71,11 @@ public class HotDogStand {
 
     }
 }
+//Output
+//Stand 1 Hots Dogs Sold: 53
+//Stand 2 Hot Dogs Sold: 73
+//Stand 3 Hot Dogs Sold: 62
+//Hot Dogs Sold Total: 188
+//ID Number of Stand 1: 1
+//ID Number of Stand 2: 2
+//ID Number of Stand 3: 3
