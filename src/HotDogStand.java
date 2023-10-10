@@ -22,11 +22,16 @@ public class HotDogStand {
     // method to get number of hot dogs sold by this specific stand
 
     public int getHotDogsSold() {
+
         return hotDogSoldToday;
+    }
+    public int getIdNumber() {
+        return idNumber;
     }
 
     // static method to get total number of hot dogs sold by every stand
     public static int getTotalHotDogsSold() {
+
         return   totalHotDogsSold;
     }
 
@@ -55,6 +60,11 @@ public class HotDogStand {
 
         // display all hot dogs sold by all stands
         System.out.println("Hot Dogs Sold Total: " + HotDogStand.getTotalHotDogsSold());
+
+        // access the ID numbers
+        System.out.println("ID Number of Stand 1: " + stand1.getIdNumber());
+        System.out.println("ID Number of Stand 2: " + stand2.getIdNumber());
+        System.out.println("ID Number of Stand 3: " + stand3.getIdNumber());
 
 
 
