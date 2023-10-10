@@ -1,5 +1,5 @@
 public class HotDogStand {
-    private int idNumber;
+    private final int idNumber;
     private int hotDogSoldToday;
     private static int totalHotDogsSold = 0; // static variable to track total hot dogs sold by all stands
 
