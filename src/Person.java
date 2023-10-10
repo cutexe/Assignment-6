@@ -1,7 +1,7 @@
 public class Person {
-   private String firstName;
-   private String lastName;
-   private int idNumber;
+   private final String firstName;
+   private final String lastName;
+   private final int idNumber;
    private static int lastAssignedId = 1000; // class variable to track last ID
 
     // constructor
